@@ -1,0 +1,19 @@
+.navStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.linkStyle {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.linkStyle:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+    transition: 0.7s;
+}
